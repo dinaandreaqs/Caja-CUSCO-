@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inducción Caja Cusco</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            /* Fondo de paisaje */
+            background-image: url('Gemini_Generated_Image_omvynjomvynjomvy.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        .barra-superior {
+            width: 100%;
+            background-color: #FFFFFF;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: center;
+            border-bottom: 4px solid #1A1310;
+        }
+
+        .contenedor-logo {
+            width: 100%;
+            max-width: 900px;
+        }
+
+        .contenedor-logo img { max-height: 40px; }
+
+        .wrapper-induccion {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        /* Título limpio sin fondo */
+        .titulo-exacto {
+            max-width: 700px;
+            width: 90%;
+            height: auto;
+            margin-bottom: 30px;
+        }
+
+        .boton-inicio {
+            background-color: #FBC02D;
+            border: 3px solid #1A1310;
+            padding: 15px 50px;
+            border-radius: 40px;
+            font-weight: 900;
+            font-size: 20px;
+            color: #1A1310;
+            cursor: pointer;
+            text-transform: uppercase;
+            box-shadow: 4px 4px 0px #1A1310;
+            transition: transform 0.2s;
+        }
+
+        .boton-inicio:hover { transform: scale(1.05); }
+    </style>
+</head>
+<body>
+
+    <div class="barra-superior">
+        <div class="contenedor-logo">
+            <img src="logo caja cusco.png" alt="Caja Cusco">
+        </div>
+    </div>
+
+    <div class="wrapper-induccion">
+        <img src="Gemini_Generated_Image_lbu8solbu8solbu8-removebg-preview.png" alt="QAPAQ ÑAM DEL NUEVO COLABORADOR" class="titulo-exacto">
+        
+        <button class="boton-inicio" onclick="alert('¡Iniciando ruta!')">¡Iniciemos!</button>
+    </div>
+
+</body>
+</html>
